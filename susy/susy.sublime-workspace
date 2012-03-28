@@ -1,0 +1,730 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"arial",
+				"Verdana, Geneva, Arial, Helvetica, sans-serif"
+			],
+			[
+				"overflow",
+				"overflow-x"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"slide",
+				"slide0"
+			],
+			[
+				"intr",
+				"introSlideDone"
+			],
+			[
+				"hide",
+				"hideNav"
+			],
+			[
+				"icon",
+				"icon-1"
+			],
+			[
+				"supre",
+				"supreme-nav"
+			],
+			[
+				"slideshow",
+				"Slideshow"
+			],
+			[
+				"move",
+				"moveSlide"
+			],
+			[
+				"sup",
+				"supreme-nav"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"cur",
+				"currentImgSrc"
+			],
+			[
+				"navIcon",
+				"navIconOn"
+			],
+			[
+				"nav",
+				"navIcon"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"gre",
+				"green"
+			],
+			[
+				"blue",
+				"blue"
+			],
+			[
+				"color",
+				"color3"
+			],
+			[
+				"h1",
+				"h1-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"list-styl",
+				"list-style-type"
+			],
+			[
+				"word",
+				"word-wrap"
+			],
+			[
+				"answer",
+				"answer-input"
+			],
+			[
+				"hear",
+				"Heartburn"
+			],
+			[
+				"babyapp",
+				"BabyApp"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"rot",
+				"rotation-point"
+			],
+			[
+				"ins",
+				"inset"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"list",
+				"list	list-style: type position image"
+			],
+			[
+				"border-r",
+				"webkit-border-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sass/_base.scss",
+			"settings":
+			{
+				"buffer_size": 370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/screen.scss",
+			"settings":
+			{
+				"buffer_size": 1105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 897,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 776,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: Anonymous Function"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <script>"
+			],
+			[
+				"fetch",
+				"Fetch"
+			],
+			[
+				"pack",
+				"Package Control: Add Channel"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"fet",
+				"Fetch"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"fe",
+				"Fetch"
+			],
+			[
+				"fetc",
+				"Fetch"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/wbowling/github/my_portfolio/config.rb",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/css/sass/page-style.scss",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/css/compiled/template1.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/index.html",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/content/_form.php",
+		"/Users/wbowling/github/portfolio/.git/COMMIT_EDITMSG",
+		"/Volumes/Design/Public/ClientReview/Lotrimin/HZinMotion/lotrimin_health_zone_multi_video.wxml",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/sass/healthy-beauty.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/sass/_slideshow-header.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/12-03-19-module-backup.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/compiled/healthy-beauty.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/sass/healthy-beauty.bak.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/healthy-beauty-backup-original.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-dark-orig.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/compiled/sorted-styles.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/conversion/dynamic-slideshow-healthy-beauty-orig.scss.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/conversion/dynamic-slideshow-healthy-beauty-min.css",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/css/sass/page-style.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-2col-sponsored.xsl",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-dark.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-dark-min.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/compare-top.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/healthy-beauty-bak-01.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/dynamic-slideshow-healthy-beauty-min.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/healthy_beauty_sponsored-merged.scss",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/hb-min-orig.css",
+		"/Users/wbowling/github/wbmd/projects/slideshow-cleanup/healthy-beauty-aggr.css",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/css/compiled/page-style.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/css/forpub.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/forpub.html",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/admin/changepswd.php",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/admin/login.php",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/master/master.php",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/template.php",
+		"/Users/wbowling/github/wbmd/.git/COMMIT_EDITMSG",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/js/page-js.js",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/index.html",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/editor/index.php",
+		"/Volumes/Inetpub/wwwroot/metaEditorDev/app/views/editor/content.php",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/css/sass/_icons.scss",
+		"/Volumes/Inetpub/wwwroot/wbowling/icons.css",
+		"/Users/wbowling/github/scripts.js/src/webmd.m.slideshow.js",
+		"/Users/wbowling/github/Tilted-Circle-Media/work/css/style.scss",
+		"/Volumes/Inetpub/wwwroot/metaeditor/assets/css/bootstrap.css",
+		"/Users/wbowling/.MacOSX/environment.plist",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/js/forpub.js",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/css/sass/icons.scss",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/baby-app-mobile.html",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/index-fail.html",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/index1.html",
+		"/Volumes/Macintosh HD/Users/wbowling/github/portfolio/resume.php",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/supreme/css/compiled/page-style.css",
+		"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/css/page-style.scss",
+		"/Users/wbowling/Library/Application Support/Sublime Text 2/Packages/DocBlockr/README.md",
+		"/Users/wbowling/github/sass-class/style.scss",
+		"/Users/wbowling/github/sass-class/style.css",
+		"/Users/wbowling/Desktop/teen-dash15.css",
+		"/Users/wbowling/Desktop/webmd.p.fit283.js",
+		"/Users/wbowling/Desktop/fit_customizable_jr8.js",
+		"/Users/wbowling/github/Tilted-Circle-Media/work/index.html",
+		"/Users/wbowling/github/Tilted-Circle-Media/work/css/style.css",
+		"/Users/wbowling/github/Tilted-Circle-Media/README.markdown",
+		"/Users/wbowling/.profile",
+		"/Users/wbowling/github/wbmd/modules-html/mobile-survey-ffp.html",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/content/_form.php",
+		"/Users/wbowling/Desktop/fit-base.js",
+		"/Users/wbowling/Desktop/fit.js",
+		"/Users/wbowling/Desktop/webmd.p.fit2.js",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/publish/index.php",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/publish/content.php",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/PageBuilder_Assets/JS/sponsored_programs/fit-initiative/fit_data_jr.js",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/PageBuilder_Assets/JS/sponsored_programs/fit-initiative/fit_data_kids.js",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/PageBuilder_Assets/JS/sponsored_programs/fit-initiative/fit_data_teens.js",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/fit-data-teens.js",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/fit-data-kids.js",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/fit-data-jr.js",
+		"/Volumes/Inetpub/wwwroot/wbowling/dctm/fit-data-teen.js",
+		"/Users/wbowling/test/.git/COMMIT_EDITMSG",
+		"/Users/wbowling/.gitconfig",
+		"/Volumes/Inetpub/wwwroot/metaeditor/assets/js/content.js",
+		"/Users/wbowling/Desktop/symptom-checker.html",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/cross-promote-module.html",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/mobile-apps.html",
+		"/Volumes/Inetpub/wwwroot/metaeditor/assets/js/order.js",
+		"/Volumes/Inetpub/wwwroot/metaeditor/assets/js/jquery.leanModal.min.js",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/template.php",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/order/index.php",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/content/index.php",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/UI Enhancements/style.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/UI Enhancements/linklist.css",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/UI Enhancements/toppicks.html",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/UI Enhancements/layout-mobile.css",
+		"/Users/wbowling/Desktop/ffp-mobile-survey.html",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/content/_menu.php",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/content/view.php",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/content/create.php",
+		"/Users/wbowling/Documents/metaeditor/app/views/content/_menu.php",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/publish/_menu.php",
+		"/Volumes/Inetpub/wwwroot/metaeditor/assets/js/happy.methods.js",
+		"/Volumes/Inetpub/wwwroot/metaeditor/assets/js/happy.js",
+		"/Users/wbowling/Downloads/andyet-Happy.js-bec016d/demo.html",
+		"/Users/wbowling/Downloads/andyet-Happy.js-bec016d/happy.methods.js",
+		"/Users/wbowling/Downloads/andyet-Happy.js-bec016d/happy.js",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/views/master/master.php",
+		"/Users/wbowling/Documents/metaeditor/assets/css/bootstrap.css",
+		"/Users/wbowling/Documents/metaeditor/assets/js/content.js",
+		"/Users/wbowling/Documents/metaeditor/app/views/content/_form.php",
+		"/Users/wbowling/Documents/metaeditor/app/views/master/master.php",
+		"/Users/wbowling/Documents/metaeditor/app/views/template.php",
+		"/Users/wbowling/Documents/metaeditor/assets/css/bootstrap.min.css",
+		"/Users/wbowling/Documents/metaeditor/assets/css/bootstrap-old.css",
+		"/Users/wbowling/github/jstraining/jquery/2_SelectingManipulating/Examples/basic_filters.html",
+		"/Users/wbowling/github/jstraining/jquery/2_SelectingManipulating/Examples/attributes.html",
+		"/Users/wbowling/github/jstraining/jquery/2_SelectingManipulating/Examples/wrappedset_operations.html",
+		"/Users/wbowling/github/jstraining/jquery/2_SelectingManipulating/Examples/visibility_filters.html",
+		"/Users/wbowling/github/jstraining/jquery/2_SelectingManipulating/Examples/hierarchy_selectors.html",
+		"/Users/wbowling/github/jstraining/jquery/2_SelectingManipulating/Examples/content_filters.html",
+		"/Volumes/Inetpub/wwwroot/metaeditor/app/classes/model/content.php",
+		"/Volumes/Inetpub/wwwroot/metaeditor/index.php",
+		"/Users/wbowling/Documents/weatherimage.php",
+		"/Users/wbowling/Desktop/dev-slideshow-js.html",
+		"/Users/wbowling/Sites/WebServices/trunk/pagebuilder/pagebuilder_assets/js/scripts.js/webmd.m.fontSizer.js",
+		"/Users/wbowling/Sites/WebServices/trunk/pagebuilder/pagebuilder_assets/js/scripts.js/webmd.overlay.min.js",
+		"/Users/wbowling/Sites/WebServices/trunk/pagebuilder/pagebuilder_assets/js/scripts.js/webmd.mobile.m.contentTools.min.js",
+		"/Users/wbowling/Sites/WebServices/trunk/pagebuilder/pagebuilder_assets/js/scripts.js/webmd.m.share.min.js",
+		"/Volumes/Inetpub/wwwroot/wbowling/projects/mobile-apps-new.html"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"square-bullet",
+			"3x3_grey_bullet.gif",
+			"healthy_beauty_slideshow_bottom",
+			"flourish_trim_clr.gif",
+			"3x3_grey_bullet.gif",
+			"icm_links_text",
+			"icm_spbox",
+			"topline",
+			"leftline",
+			"rightline",
+			"/* corners ",
+			"/* CSS3 */",
+			"icm_short_text",
+			"	.",
+			".browserIE #breadcrumb_ctr .titleBarRight_fmt {\n	top: 27px; }\n",
+			"/* CSS3 */",
+			".icm ",
+			"$",
+			".final_text_slide h2",
+			"@include",
+			"@impo",
+			"topline",
+			"rightline",
+			"  ",
+			"//  web - ",
+			"// web - ",
+			"left_corner",
+			"topline",
+			"bottomline",
+			".final_text_slide li{background:none;border:none;color:#414141;}",
+			"icm_short_text_wrapper",
+			".thumb",
+			".thumb{background:url(../../../consumer_assets/site_images/modules/icm/topline.gif) repeat-x top left;float:left;width:123px;}",
+			"#slideshow {",
+			"#slideshow{",
+			"bottom_left",
+			"corner",
+			"top_right",
+			"right.gif",
+			"final_text_slide ul",
+			"final_text_slide",
+			"3x3_grey_bullet",
+			"_height",
+			"#breadcrumb_ctr #slideshow_container #slideshow .icm_spbox",
+			".icm_wrapper .isi.popover",
+			"60%",
+			"35%",
+			"85%",
+			"app_slide_rdr",
+			"cdn.optimi",
+			"as.webmd.com",
+			"script",
+			"snippet",
+			"”",
+			"“",
+			"’",
+			"”",
+			"“",
+			"restore_settings",
+			"customi",
+			"function totalScore",
+			"totalScore",
+			"setFitQPoints",
+			"<script",
+			"score",
+			"scorin",
+			"dailyScore",
+			"onTopScoresUpdated",
+			"label",
+			"top_picks",
+			"pattern|title",
+			"pattern | title",
+			"user-select",
+			"-moz-user-select",
+			"required",
+			"select",
+			"error",
+			"topbar-inner",
+			"icon-plus-sign",
+			"url",
+			"image",
+			"nav",
+			"oslink",
+			" oslink",
+			"alt=\"\"",
+			"hrttho",
+			"hrt",
+			"cold",
+			"articleTools",
+			"attribute",
+			"article",
+			"18",
+			"®",
+			"&rdquo;",
+			"&ldquo;",
+			"&rsquo;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/* corners */",
+			"    ",
+			" ",
+			"",
+			"50%",
+			"$color-stop%",
+			"60%",
+			"35%",
+			"\"",
+			"'",
+			"&reg;",
+			"\"",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sass/_base.scss",
+					"settings":
+					{
+						"buffer_size": 370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/screen.scss",
+					"settings":
+					{
+						"buffer_size": 1105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.rb",
+					"settings":
+					{
+						"buffer_size": 897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								721,
+								721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/wbowling/Sites/zzTest/sponsored/sponsored-ws.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/supreme-court.sublime-project"
+			],
+			[
+				"sup",
+				"/Users/wbowling/github/wbmd/projects/supreme-court-page-28662/supreme-court.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true
+}

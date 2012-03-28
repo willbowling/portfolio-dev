@@ -1,0 +1,13 @@
+// Imports -------------------------------------------------------------------
+
+@import "susy";
+// @import "compass/reset";
+
+// Grid ----------------------------------------------------------------------
+
+$total-cols             : 12;
+$col-width              : 10em;
+$gutter-width           : .5em;
+$side-gutter-width      : $gutter-width;
+
+$show-grid-backgrounds  : true;
