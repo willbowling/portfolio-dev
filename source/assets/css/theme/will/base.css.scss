@@ -1,0 +1,52 @@
+@import "compass/css3";
+// @import "partials/grid";
+// @import "compass/reset";
+@import "partials/h5mbp";
+@import "partials/hzcolors";
+
+
+// Base Layout // DESKTOP ONLY -----------------
+body {
+background-color: #fff;
+text-align: center; }
+#page {
+  // background-color: rgba(255,255,255,0.9);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  @include border-radius(10px);
+  @include box-shadow(rgba(lime, 0.4) 0 0 25px, rgba(blue, 0.2) 0 0 3px 1px inset);
+  width: $page-width;
+  margin: 20px auto;
+  position: relative;
+  div {
+    border: 1px dotted #ccc;
+    background-color: #ebebeb;
+    vertical-align: top; }
+  section {float: left; margin: 0 10px 0 0;
+    div{margin: 10px 5px 0;}
+    &.section1.header {width: $page-width;}
+    &.section2.advertisement {width: $page-width;}
+    &.section3.left-col {width: $left-col;}
+    &.section4.main-content {width: $middle-col-wide;}
+    &.section5.footer {width: $page-width;clear:both;float: none;}
+  }
+}
+
+
+@media only screen and (max-width: 959px) {
+// Base Layout // Tablet ONLY -----------------
+  // $page-width: 760px;
+  // $middle-col: 600px;
+  // $right-col: 0;
+  #page {
+    width: $page-width - 220;
+    section {float: left; margin: 0 10px 0 0;
+      div{margin: 0;width: auto;}
+      &.section1.header {width: $page-width - 220;}
+      &.section2.advertisement {width: $page-width - 220;}
+      &.section3.left-col {width: $left-col; clear:both;}
+      &.section4.main-content {width: $middle-col;}
+      &.section5.footer {width: $page-width - 220;}
+    }
+  }
+}

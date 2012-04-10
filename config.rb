@@ -32,7 +32,8 @@ use Rack::Tidy,
   "wrap-sections"        => true,
   "output-xhtml"         => true,
   "new-inline-tags"      => "cfif, cfelse, ripts, msup",
-  "new-blocklevel-tags"  => "cfoutput, cfquery, header, nav, footer, article, section, figure, datalist",
+  # "new-blocklevel-tags"  => "cfoutput, cfquery, header, nav, footer, article, aside, section, figure, datalist",
+  "new-blocklevel-tags"  => "article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, datalist",
   "new-empty-tags"       => "cfelse"
 
 

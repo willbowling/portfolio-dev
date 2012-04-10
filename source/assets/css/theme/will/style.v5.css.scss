@@ -1,0 +1,211 @@
+@import "base";
+
+// Base Layout // DESKTOP ONLY -----------------
+#page {
+
+    #ContentPane1 { // Logo
+      float: left;
+      width: 200px !important;
+    }
+    #ContentPane2 { // Search  -----------------
+      float: left;
+      width: 400px;
+    }
+    #ContentPane3 { // Login -----------------
+      float: left;
+      width: 300px;
+    }
+
+    // left column panes
+
+    #ContentPane13 {
+      float: left;
+      width: $left-col;
+      aside.left {
+        width: $left-col;
+        background-color: #666;
+        margin-bottom: 10px;
+        &.left1{height:100px;}
+        &.left2{height:400px;}
+        &.left3{height:300px;}
+        &.left4{height:100px;}
+      }
+    }
+
+    // Main column panes
+    #ContentPane19 {
+      float: left;
+      height:250px;
+      width: $middle-col;
+    }
+    #ContentPane20 {
+      float: right;
+      clear: none;
+      width: $right-col;
+      ul {padding-left:5px;
+        li {
+          list-style-type: none;
+          clear:both;
+          margin:0;
+          vertical-align: top;
+          text-align:left;
+          img {float: left;clear: left; padding-right: 5px;margin-bottom:10px;}
+          p {padding:0;margin:0;}
+        }
+      }
+    }
+    #ContentPane21 {
+      float:right;
+      clear: right;
+      height:250px;
+      width: $right-col;
+    }
+    #ContentPane22 {
+      float:left;
+      width: $middle-col;
+      ul {padding-left:5px;
+        li {
+          list-style-type: none;
+          clear:both;
+          margin:0;
+          vertical-align: top;
+          text-align:left;
+          img {float: left;clear: left; padding-right: 5px;margin-bottom:10px;}
+          p {padding:0 0 20px;margin:0;}
+        }
+      }
+    }
+    #ContentPane23 {
+      float:right;
+      height:200px;
+      width: $right-col;
+    }
+    #ContentPane24 {
+      float:left;
+      width: $middle-col-nest;
+    }
+    #ContentPane25 {
+      float:left;
+      width: $middle-col-nest;
+      margin-left: 10px;
+    }
+    #ContentPane26 {
+      float:right;
+      height:200px;
+      width: $right-col;
+    }
+    #ContentPane27 {
+      float:right;
+      clear: right;
+      height:100px;
+      width: $right-col;
+    }
+
+    // #ContentPane20{float:right;height:100px;width: $right-col; clear: right;}
+
+    #ContentPane53 {
+      // clear:both;
+      height:60px;
+      width: $page-width;
+    }
+
+    // .prem-module {clear:both;} // Footer --
+
+  }
+
+
+
+  @media only screen and (max-width: 959px) {
+  #page {
+    #ContentPane20 {
+      float: left;
+      width: $middle-col;
+      ul {padding-left:5px;
+        li {
+          float: left;
+          width: 30%;
+          margin: 0 10px 10px;
+          clear:none;
+        }
+      }
+    }
+    #ContentPane22 {
+      float:left;
+      width: $middle-col-nest;
+    }
+    .magazine-module {
+      float:right;
+      height:200px;
+      width: $middle-col-nest;
+    }
+    .community-module {
+      float:left;
+      width: $middle-col-nest;
+    }
+    .trends-module {
+      float:left;
+      width: $middle-col-nest;
+      margin-left: 10px;
+    }
+    .newsletter-module {
+      float:left;
+      height:200px;
+      width: $middle-col-nest;
+    }
+    .fda-module {
+      float:right;
+      height:100px;
+      width: $middle-col-nest;
+    }
+
+    .hs-module {
+      // clear:both;
+      height:60px;
+      width: $page-width;
+    }
+
+
+  // #ContentPane1 { // Logo
+  // float: left;
+  // width: 200px;
+  // }
+  // #ContentPane2 { // Search  -----------------
+  // float: left;
+  // width: 400px;
+  // }
+  // #ContentPane3 { // Login -----------------
+  // float: left;
+  // width: 300px;
+  // }
+
+  // // left column panes
+  // #ContentPane5{height:50px;width: $left-col;}
+  // #ContentPane6{height:300px;width: $left-col;}
+  // #ContentPane7{height:120px;width: $left-col;}
+  // #ContentPane8{height:70px;width: $left-col;}
+
+  // // Main column panes
+  // #ContentPane11{height:250px;width: $middle-col;}
+  // #ContentPane12{height:150px;width: $middle-col;}
+  // #ContentPane13{float:left;width: $middle-col-nest;}
+  // #ContentPane14{float:right;height:200px;width: $middle-col-nest;}
+  // #ContentPane15{float:right;height:200px;width: $middle-col-nest;}
+  // #ContentPane16{float:left;width: $middle-col-nest;}
+  // #ContentPane17{float:right;width: $middle-col-nest;}
+  // #ContentPane18{float:left;height:200px;width: $middle-col-nest;}
+  // #ContentPane19{float:right;height:200px;width: $middle-col-nest;}
+  // #ContentPane20{float:left;height:100px;width: $middle-col-nest;}
+
+
+   }
+  }
+
+  /*/mediaquery*/
+
+  /* iPhone 4, Opera Mobile 11 and other high pixel ratio devices ----------- */
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5)
+  {/* Styles */ }

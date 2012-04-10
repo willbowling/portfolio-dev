@@ -1,5 +1,52 @@
 ---
-layout: will_04
+layout: will_05
 ---
 
-h1 Homepage
+== partial "partials/theme_switcher"
+
+/ section.section1.header (1-6)
+- content_for :content_pane_01 do
+	== image_tag "will/logo.png"
+- content_for :content_pane_02 do
+  == partial "partials/content/search"
+- content_for :content_pane_03 do
+	== partial "partials/content/login"
+
+/ section.section2.advertisement (7-12)
+- content_for :content_pane_07 do
+  == image_tag "will/ad-top.png"
+
+/ section.section3.left-col (13-18)
+- content_for :content_pane_13 do
+  == partial "partials/content/left_col"
+
+/ section.section4.main-content (19-...)
+- content_for :content_pane_19 do
+  h3 Promo
+- content_for :content_pane_20 do
+  == partial 'partials/content/featured_articles'
+- content_for :content_pane_21 do
+  == partial 'partials/content/ad_right'
+- content_for :content_pane_22 do
+  == partial 'partials/content/news'
+- content_for :content_pane_23 do
+  h3 Magazine App Promo Module
+- content_for :content_pane_24 do
+  == partial 'partials/content/community'
+- content_for :content_pane_25 do
+  == partial 'partials/content/top_trends'
+- content_for :content_pane_26 do
+  h3 Newsletters
+- content_for :content_pane_27 do
+  h3 FDA
+
+/ section.section5.footer (53-...)
+- content_for :content_pane_53 do
+  h3 Health Solutions
+- content_for :content_pane_54 do
+  footer
+    p== lorem.sentence
+
+
+
+
