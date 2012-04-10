@@ -1,0 +1,100 @@
+.search_tools
+  .date== lorem.date
+  div
+    / input#search.search type="text" value="" name="search"
+    / input type="text" id="state_search" name="state_search" list="states" placeholder="Find U.S. State"
+    / input type="text" id="name" name="name" list="names" placeholder="Search"
+    - form_tag '/action', :class => 'search_form', :method => 'get' do
+      == text_field_tag :search, :id => "search", :class => "search field", :value => params[:search]
+      == submit_tag "Search", :id => "search_submit", :class => "button btn submit"
+    / button.button Search
+    .other
+      span Other search tools:
+      ul
+        li== link_to "Symptoms", ""
+        li== link_to "Doctors", ""
+        li== link_to "Medical Dictionary", ""
+/ .module.search_tools
+/   .wrapper
+/     .date== lorem.date
+/     div
+/       / input#search.search type="text" value="" name="search"
+/       / input type="text" id="state_search" name="state_search" list="states" placeholder="Find U.S. State"
+/       / input type="text" id="name" name="name" list="names" placeholder="Search"
+/       - form_tag '/action', :class => 'search_form', :method => 'get' do
+/         == text_field_tag :search, :id => "search", :class => "search field", :value => params[:search]
+/         == submit_tag "Search", :id => "search_submit", :class => "button btn submit"
+/       / button.button Search
+/       .other
+/         span Other search tools:
+/         ul
+/           li== link_to "Symptoms", ""
+/           li== link_to "Doctors", ""
+/           li== link_to "Medical Dictionary", ""
+
+/ datalist id="states"
+/   option value="Alabama"
+/   option value="Alaska"
+/   option value="Arizona"
+/   option value="Arkansas"
+/   option value="California"
+/   option value="Colorado"
+/   option value="Connecticut"
+/   option value="Delaware"
+/   option value="Florida"
+/   option value="Georgia"
+/   option value="Hawaii"
+/   option value="Idaho"
+/   option value="Illinois"
+/   option value="Indiana"
+/   option value="Iowa"
+/   option value="Kansas"
+/   option value="Kentucky"
+/   option value="Louisiana"
+/   option value="Maine"
+/   option value="Maryland"
+/   option value="Massachusetts"
+/   option value="Michigan"
+/   option value="Minnesota"
+/   option value="Mississippi"
+/   option value="Missouri"
+/   option value="Montana"
+/   option value="Nebraska"
+/   option value="Nevada"
+/   option value="New Hampshire"
+/   option value="New Jersey"
+/   option value="New Mexico"
+/   option value="New York"
+/   option value="North Carolina"
+/   option value="Ohio"
+/   option value="Oklahoma"
+/   option value="Oregon"
+/   option value="Pennsylvania"
+/   option value="Rhode Island"
+/   option value="South Carolina"
+/   option value="South Dakota"
+/   option value="Tennessee"
+/   option value="Texas"
+/   option value="Utah"
+/   option value="Vermont"
+/   option value="Virginia"
+/   option value="Washington"
+/   option value="West Virginia"
+/   option value="Wisconsin"
+/   option value="Wyoming"
+
+/ datalist id="names"
+/  - data.health_conditions.each do | condition |
+/    option value="#{condition.name}"
+
+/ - content_for :head do
+/   == javascript_include_tag "/assets/js/lib/jquery-1.7.1", "/assets/js/lib/modernizr.custom.95508"
+/   javascript:
+/     // Safari reports success of list attribute, so doing ghetto detection instead
+/     yepnope({
+/       test : (!Modernizr.input.list || (parseInt($.browser.version) > 400)),
+/       yep : [
+/         '/assets/js/lib/jquery.relevant-dropdown.js',
+/         '/assets/js/lib/load-fallbacks.js'
+/       ]
+/     });

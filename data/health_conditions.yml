@@ -1,0 +1,75 @@
+-
+  name: ADHD
+  slug: add-adhd
+-
+  name: Allergies
+  slug: allergies
+-
+  name: Anxiety Disorders
+  slug: anxiety-panic
+-
+  name: Arthritis
+  slug: arthritis
+-
+  name: Asthma
+  slug: asthma
+-
+  name: Back Pain
+  slug: back-pain
+-
+  name: Bipolar Disorder
+  slug: bipolar-disorder
+-
+  name: Cancer
+  slug: cancer
+-
+  name: Cholesterol
+  slug: cholesterol-management
+-
+  name: "Cold & Flu"
+  slug: cold-and-flu
+-
+  name: COPD
+  slug: copd
+-
+  name: Depression
+  slug: Depression
+-
+  name: Diabetes
+  slug: diabetes
+-
+  name: Eye Health
+  slug: eye-health
+-
+  name: Fibromyalgia
+  slug: fibromyalgia
+-
+  name: Heart Disease
+  slug: heart-disease
+-
+  name: Heartburn/GERD
+  slug: heartburn-gerd
+-
+  name: Hypertension
+  slug: hypertension-high-blood-pressure
+-
+  name: Incontinence/OAB
+  slug: urinary-incontinence-oab
+-
+  name: Migraines
+  slug: migraines-headaches
+-
+  name: Osteoporosis
+  slug: osteoporosis
+-
+  name: Rheumatoid Arthritis
+  slug: rheumatoid-arthritis
+-
+  name: Sexual Conditions
+  slug: sexual-conditions
+-
+  name: Skin Problems
+  slug: skin-problems
+-
+  name: Sleep Disorders
+  slug: sleep-disorders

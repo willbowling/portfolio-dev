@@ -1,0 +1,77 @@
+@import "grid";
+@import "compass/css3";
+
+// ********************************************************************************************
+// Responsive Layout
+// ********************************************************************************************
+body {margin:0;}
+h1, h2 {margin:0; padding:0 .8em}
+.container {
+  background:#FFFF99;
+  position:relative;
+  border:1px solid blue;
+}
+.pane {
+}
+#main {
+  width:1000px;
+  margin:0 auto;
+  padding:5px;
+  border:1px solid #ccc;
+  @include clearfix;
+  @include single-box-shadow;
+  @include border-radius(5px);
+
+  #two {
+    @include clearfix;
+    
+    #ContentPane7 {
+      float:left;
+      width:200px;
+    }
+    #ContentPane8 {
+      float:left;
+      width:480px;
+    }
+    #ContentPane9 {
+      float:left;
+      width:310px;
+      @include clearfix;
+    }
+    #ContentPane10 {
+      clear:both;
+    }
+  }
+  
+  #three {
+    float:left;
+    width:200px;
+  }
+  #four {
+    float:left;
+    width:796px;
+    #ContentPane19 {
+      float:left;
+      width:485px;
+
+    }
+    #ContentPane20 {
+      width:307px;
+      float:right;
+    }
+    #ContentPane21, #ContentPane23{
+      width:307px;
+      float:right;
+      clear:right;
+    }
+  }
+  #six {
+    clear:both;
+  }
+}
+  
+// Responsive Layout ***********************************************************
+@media screen and (max-width: 960px) {
+
+}
+

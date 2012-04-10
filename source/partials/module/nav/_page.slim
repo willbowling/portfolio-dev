@@ -1,0 +1,5 @@
+nav role="complementary"
+  h2  Health Condition
+  ul
+    - data.health_conditions.each do | condition |
+      li== link_to condition.name, condition.url

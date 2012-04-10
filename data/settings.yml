@@ -1,8 +1,14 @@
 datlap_path: /Volumes/Inetpub/wwwroot/responsive-lab
 pages:
   -
-    name: Homepage
-    slug: homepage
+    name: Cody's Homepage
+    slug: homepage_cody
+  -
+    name: Victor's Homepage
+    slug: homepage_victor
+  -
+    name: Will's Homepage
+    slug: homepage_will
 themes:
   -
     name: Cody
@@ -16,3 +22,28 @@ themes:
     name: Will
     slug: will
     css_path: http://datlap01.webmdhealth.net/responsive-lab/assets/css/theme/will/layout.css
+sections:
+  -
+    name: "Home & News"
+    url: /page.html
+  -
+    name: Health A-Z
+    url: /page.html
+  -
+    name: "Drugs & Supplements"
+    url: /page.html
+  -
+    name: Healthy Living
+    url: /page.html
+  -
+    name: "Eating & Diet"
+    url: /page.html
+  -
+    name: "Parenting & Preganancy"
+    url: /page.html
+  -
+    name: Teen Health
+    url: /page.html
+  -
+    name: Pet Health
+    url: /page.html

@@ -1,0 +1,24 @@
+#nl.newsletter_signup.newsletterThurii_rdr.moduleImpression
+    .newsletterFmt
+    .wrapper
+      .newsletterTitle
+        h2 Subscribe
+        h3 to WebMD Newsletters
+      p.newsletterText
+      form onsubmit="alert('Could not subscribe to newsletter: an error has occurred.'); return false;" action="#" method="get"
+        .multi_nl_cb_text
+          label
+            input.multi_nl_cb type="checkbox" value="69"  name="nls" 
+              | Parkinsons
+          label
+            input.multi_nl_cb type="checkbox" value="35" name="nls" 
+              | Women Health
+          label
+            input.multi_nl_cb type="checkbox" value="26" name="nls" 
+              | Mens Health
+          label
+            input.multi_nl_cb type="checkbox" value="36" name="nls" 
+              | WebMD Daily
+        input#newsletter_email.newsletterEmail.newsletterLabel type="text" value="Enter Email Address" title="Enter Email Address" name="newsletter_email"
+        button#newsletter_submit.webmd-btn.webmd-btn-pr.webmd-btn-s name="newsletter_submit" type="submit" Submit
+        a.enhanced_nl_link onclick="return sl(this,'nw','nl-multie_s')" href="https://member.webmd.com/newsletters/newsletters.aspx" Sign up for more topics!

@@ -1,0 +1,16 @@
+.container {
+}
+.pane {
+  background:#F4F4F4;
+  text-align: center;
+  border:1px dotted #ccc;
+}
+.module {
+  border:1px solid black;
+  background:#7FFFFF;
+  margin:5px;
+}
+
+.pane.empty:before {
+  content:'Available Pane';
+}

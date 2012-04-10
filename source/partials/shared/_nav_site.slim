@@ -1,0 +1,4 @@
+nav#site_nav role="navigation"
+  ul
+    - data.settings.sections.each do | section |
+      li== link_to section.name, section.url

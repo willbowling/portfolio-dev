@@ -1,0 +1,6 @@
+.module.team.stakeholders
+  h2 Stakeholders
+  ul
+    - data.settings.stakeholders.each do | stakeholder |
+      li
+        == image_tag "team/#{stakeholder.username}.jpg", :alt => stakeholder.name

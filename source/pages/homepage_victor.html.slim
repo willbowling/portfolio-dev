@@ -1,0 +1,25 @@
+---
+layout: layout_01
+---
+- content_for :content_pane_01 do
+  == partial "partials/shared/nav_site"
+
+- content_for :content_pane_07 do
+  header role="banner"
+    == partial "partials/shared/logo"
+    == partial "partials/shared/search"
+    == partial "partials/shared/tools"
+
+// Row 5 ( 25 - 30 )
+- content_for :content_pane_25 do
+  == partial "partials/shared/sidebar_1"
+
+- content_for :content_pane_26 do
+  == partial "partials/shared/main"
+
+- content_for :content_pane_27 do
+  == partial "partials/shared/sidebar_2"
+
+// Row 6 ( 31 - 36 )
+- content_for :content_pane_31 do
+  == partial "partials/shared/footer"

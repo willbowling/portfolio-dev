@@ -1,0 +1,321 @@
+@import "compass/css3";
+// @import "compass/reset";
+@import "partials/h5mbp";
+@import "partials/hzcolors";
+// @import "partials/grid";
+
+$page-width: 980px;
+$left-col: 130px;
+$middle-col: 600px;
+$middle-col-wide: 830px;
+$middle-col-nest: 295px;
+$right-col: 220px;
+
+body {
+background-color: #fff;
+text-align: center; }
+
+  #page {
+    // background-color: rgba(255,255,255,0.9);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    @include border-radius(10px);
+    @include box-shadow(rgba(blue, 0.4) 0 0 25px, rgba(lime, 0.2) 0 0 3px 1px inset);
+    width: $page-width;
+    margin: 20px auto;
+    position: relative;
+    div {
+      // border: 1px solid #333;
+      background-color: #ccc;
+      vertical-align: top; }
+
+    section {float: left; margin: 0 10px 0 0;
+      div{
+      // float: left;
+      margin: 0 0 10px;
+      }
+    }
+
+    .footer {clear:both;float: none;}
+
+
+    // OUTER SECTION // Desktop // LAYOUT -----------------
+
+    // Main Navigation -----------------
+    .section1 {
+      width: $page-width;
+      div {margin: 10px 5px 0;}
+    }
+    // Top Ad
+    .section2 {width: $page-width;}
+    // Left Column
+    .section3 {width: $left-col;}
+    // Middle Column
+    .section4 {width: $middle-col-wide;}
+    // Right Column
+    .section5 {width: $right-col;}
+
+
+
+
+
+
+    // INNER PANES // Desktop // LAYOUT -----------------
+
+    .logo-module { // Logo
+      float: left;
+      width: 200px;
+    }
+    .search-module { // Search  -----------------
+      float: left;
+      width: 400px;
+    }
+    .login-module { // Login -----------------
+      float: left;
+      width: 300px;
+    }
+
+    // left column panes
+    aside.left {
+      width: $left-col;
+      &.left1{height:100px;}
+      &.left2{height:400px;}
+      &.left3{height:300px;}
+      &.left4{height:100px;}
+    }
+
+    // Main column panes
+    .promo-module {
+      float: left;
+      height:250px;
+      width: $middle-col;
+    }
+    .featured-module {
+      float: right;
+      clear: none;
+      width: $right-col;
+    }
+    .ad-side {
+      float:right;
+      clear: right;
+      height:200px;
+      width: $right-col;
+    }
+    .news-module {
+      float:left;
+      width: $middle-col;
+    }
+    .magazine-module {
+      float:right;
+      height:200px;
+      width: $right-col;
+    }
+    .community-module {
+      float:left;
+      width: $middle-col-nest;
+    }
+    .trends-module {
+      float:left;
+      width: $middle-col-nest;
+      margin-left: 10px;
+    }
+    .newsletter-module {
+      float:right;
+      height:200px;
+      width: $right-col;
+    }
+    .fda-module {
+      float:right;
+      clear: right;
+      height:100px;
+      width: $right-col;
+    }
+
+    // #ContentPane20{float:right;height:100px;width: $right-col; clear: right;}
+
+    .hs-module {
+      // clear:both;
+      height:60px;
+      width: $page-width;
+    }
+
+    // .prem-module {clear:both;} // Footer --
+
+  }
+
+
+  /*
+  * Media queries for responsive design github.com/h5bp/mobile-boilerplate/wiki/The-Style
+  */
+
+  /* Styles for desktop and large screen ----------- */
+
+  /* styles for 800px and up! */
+  @media only screen and (max-width: 959px) {
+
+  $page-width: 760px;
+  $middle-col: 600px;
+  $right-col: 0;
+
+
+  #page {
+  width: $page-width;
+
+  // OUTER SECTION // TABLET // LAYOUT -----------------
+
+  // Main Navigation -----------------
+  .section1 {
+  width: $page-width;
+  // div {margin: 10px 5px 0;}
+  }
+  // Top Ad
+  .section2 {width: $page-width;}
+  // Left Column
+  .section3 {width: $left-col; clear:both;}
+  // Middle Column
+  .section4 {width: $middle-col;}
+  // Right Column
+  .section5 {width: $right-col;}
+
+
+
+    // INNER PANES // TABLET // LAYOUT -----------------
+
+    .logo-module { // Logo
+      float: left;
+      width: 200px;
+    }
+    .search-module { // Search  -----------------
+      float: left;
+      width: 400px;
+    }
+    .login-module { // Login -----------------
+      float: left;
+      width: 300px;
+    }
+
+    // left column panes
+    aside.left {
+      width: $left-col;
+      &.left1{height:100px;}
+      &.left2{height:400px;}
+      &.left3{height:300px;}
+      &.left4{height:100px;}
+    }
+
+    // Main column panes
+    .promo-module {
+      float: left;
+      height:250px;
+      width: $middle-col;
+    }
+    .featured-module {
+      float: left;
+      width: $middle-col;
+    }
+    .ad-side {
+      float:right;
+      clear: right;
+      height:200px;
+      width: $middle-col-nest;
+    }
+    .news-module {
+      float:left;
+      width: $middle-col-nest;
+    }
+    .magazine-module {
+      float:right;
+      height:200px;
+      width: $middle-col-nest;
+    }
+    .community-module {
+      float:left;
+      width: $middle-col-nest;
+    }
+    .trends-module {
+      float:left;
+      width: $middle-col-nest;
+      margin-left: 10px;
+    }
+    .newsletter-module {
+      float:left;
+      height:200px;
+      width: $middle-col-nest;
+    }
+    .fda-module {
+      float:right;
+      height:100px;
+      width: $middle-col-nest;
+    }
+
+    .hs-module {
+      // clear:both;
+      height:60px;
+      width: $page-width;
+    }
+
+
+  // // OUTER SECTION // TABLET // LAYOUT -----------------
+
+  // // Main Navigation -----------------
+  // .section1 {
+  // width: $page-width;
+  // div {margin: 10px 5px 0;}
+  // }
+  // // Top Ad
+  // .section2 {width: $page-width;}
+  // // Left Column
+  // .section3 {width: $left-col; clear:both;}
+  // // Middle Column
+  // .section4 {width: $middle-col;}
+  // // Right Column
+  // .section5 {width: $right-col;}
+
+
+  // // INNER PANES // TABLET // LAYOUT -----------------
+
+  // #ContentPane1 { // Logo
+  // float: left;
+  // width: 200px;
+  // }
+  // #ContentPane2 { // Search  -----------------
+  // float: left;
+  // width: 400px;
+  // }
+  // #ContentPane3 { // Login -----------------
+  // float: left;
+  // width: 300px;
+  // }
+
+  // // left column panes
+  // #ContentPane5{height:50px;width: $left-col;}
+  // #ContentPane6{height:300px;width: $left-col;}
+  // #ContentPane7{height:120px;width: $left-col;}
+  // #ContentPane8{height:70px;width: $left-col;}
+
+  // // Main column panes
+  // #ContentPane11{height:250px;width: $middle-col;}
+  // #ContentPane12{height:150px;width: $middle-col;}
+  // #ContentPane13{float:left;width: $middle-col-nest;}
+  // #ContentPane14{float:right;height:200px;width: $middle-col-nest;}
+  // #ContentPane15{float:right;height:200px;width: $middle-col-nest;}
+  // #ContentPane16{float:left;width: $middle-col-nest;}
+  // #ContentPane17{float:right;width: $middle-col-nest;}
+  // #ContentPane18{float:left;height:200px;width: $middle-col-nest;}
+  // #ContentPane19{float:right;height:200px;width: $middle-col-nest;}
+  // #ContentPane20{float:left;height:100px;width: $middle-col-nest;}
+
+
+  // }
+  }
+
+  /*/mediaquery*/
+
+  /* iPhone 4, Opera Mobile 11 and other high pixel ratio devices ----------- */
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5)
+  {/* Styles */ }
+}
