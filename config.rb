@@ -34,3 +34,15 @@ use Rack::Tidy,
   "new-inline-tags"      => "cfif, cfelse, ripts, msup",
   "new-blocklevel-tags"  => "cfoutput, cfquery, header, nav, footer, article, section, figure, datalist",
   "new-empty-tags"       => "cfelse"
+
+
+# Build-specific configuration
+configure :build do
+  compass_config do |config|
+    config.line_comments = false
+    config.output_style = :expanded
+  end
+
+  # activate :minify_css
+  # activate :minify_javascript
+end

@@ -1,0 +1,6 @@
+.theme_switcher
+  select id="theme_switcher" name="theme" tabindex="1" class="change_theme"
+    option value="" Please select a layout
+    - data.settings.themes.each do |theme|
+      option value="#{theme.slug}"
+        == theme.name

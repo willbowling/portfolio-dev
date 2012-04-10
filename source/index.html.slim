@@ -1,1 +1,5 @@
-p Hello, World
+h2 Pages
+ul
+  - data.settings.pages.each do |page|
+    li
+      == link_to page.name, "pages/#{page.slug}.html"

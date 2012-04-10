@@ -1,0 +1,91 @@
+DOCTYPE html
+/! paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither
+| <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+| <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+| <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+| <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+head
+  meta charset="utf-8"
+  meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
+  title Twelve Columns
+  meta name="viewport" content="width=device-width; initial-scale=1.0"
+  == stylesheet_link_tag "style"
+
+  // Default
+  == stylesheet_link_tag "layout_01"
+
+  - data.settings.themes.each do |theme|
+    link rel="alternate stylesheet" href="#{theme.css_path}" title="#{theme.slug}" media="screen"
+
+  == javascript_include_tag "script"
+  == javascript_include_tag "lib/modernizr-2.5.3.min"
+  == yield_content :head
+body class="#{page_classes}"
+  == partial "partials/theme_switcher"
+  #page
+    .row
+      #content_pane_01.content_pane==yield_content :content_pane_01
+      #content_pane_02.content_pane==yield_content :content_pane_02
+      #content_pane_03.content_pane==yield_content :content_pane_03
+      #content_pane_04.content_pane==yield_content :content_pane_04
+      #content_pane_05.content_pane==yield_content :content_pane_05
+      #content_pane_06.content_pane==yield_content :content_pane_06
+    .row
+      #content_pane_07.content_pane==yield_content :content_pane_07
+      #content_pane_08.content_pane==yield_content :content_pane_08
+      #content_pane_09.content_pane==yield_content :content_pane_09
+      #content_pane_10.content_pane==yield_content :content_pane_10
+      #content_pane_11.content_pane==yield_content :content_pane_11
+      #content_pane_12.content_pane==yield_content :content_pane_12
+    .row
+      #content_pane_13.content_pane==yield_content :content_pane_13
+      #content_pane_14.content_pane==yield_content :content_pane_14
+      #content_pane_15.content_pane==yield_content :content_pane_15
+      #content_pane_16.content_pane==yield_content :content_pane_16
+      #content_pane_17.content_pane==yield_content :content_pane_17
+      #content_pane_18.content_pane==yield_content :content_pane_18
+    .row
+      #content_pane_19.content_pane==yield_content :content_pane_19
+      #content_pane_20.content_pane==yield_content :content_pane_20
+      #content_pane_21.content_pane==yield_content :content_pane_21
+      #content_pane_22.content_pane==yield_content :content_pane_22
+      #content_pane_23.content_pane==yield_content :content_pane_23
+      #content_pane_24.content_pane==yield_content :content_pane_24
+    .row
+      #content_pane_25.content_pane==yield_content :content_pane_25
+      #content_pane_26.content_pane==yield_content :content_pane_26
+      #content_pane_27.content_pane==yield_content :content_pane_27
+      #content_pane_28.content_pane==yield_content :content_pane_28
+      #content_pane_29.content_pane==yield_content :content_pane_29
+      #content_pane_30.content_pane==yield_content :content_pane_30
+    .row
+      #content_pane_31.content_pane==yield_content :content_pane_31
+      #content_pane_32.content_pane==yield_content :content_pane_32
+      #content_pane_33.content_pane==yield_content :content_pane_33
+      #content_pane_34.content_pane==yield_content :content_pane_34
+      #content_pane_35.content_pane==yield_content :content_pane_35
+      #content_pane_36.content_pane==yield_content :content_pane_36
+    .row
+      #content_pane_37.content_pane==yield_content :content_pane_37
+      #content_pane_38.content_pane==yield_content :content_pane_38
+      #content_pane_39.content_pane==yield_content :content_pane_39
+      #content_pane_40.content_pane==yield_content :content_pane_40
+      #content_pane_41.content_pane==yield_content :content_pane_41
+      #content_pane_42.content_pane==yield_content :content_pane_42
+    .row
+      #content_pane_43.content_pane==yield_content :content_pane_43
+      #content_pane_44.content_pane==yield_content :content_pane_44
+      #content_pane_45.content_pane==yield_content :content_pane_45
+      #content_pane_46.content_pane==yield_content :content_pane_46
+      #content_pane_47.content_pane==yield_content :content_pane_47
+      #content_pane_48.content_pane==yield_content :content_pane_48
+    .row
+      #content_pane_49.content_pane==yield_content :content_pane_49
+      #content_pane_50.content_pane==yield_content :content_pane_50
+      #content_pane_51.content_pane==yield_content :content_pane_51
+      #content_pane_52.content_pane==yield_content :content_pane_52
+      #content_pane_53.content_pane==yield_content :content_pane_53
+      #content_pane_54.content_pane==yield_content :content_pane_54
+    == yield
+  == yield_content :foot
+| </html>
