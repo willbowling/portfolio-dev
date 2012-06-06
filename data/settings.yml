@@ -1,14 +1,17 @@
 datlap_path: /Volumes/Inetpub/wwwroot/responsive-lab
 pages:
   -
-    name: Cody's Homepage
-    slug: homepage_cody
-  -
-    name: Victor's Homepage
-    slug: homepage_victor
-  -
-    name: Will's Homepage
-    slug: homepage_will
+    name: Portfolio V1
+    slug: index
+  # -
+  #   name: Cody's Homepage
+  #   slug: homepage_cody
+  # -
+  #   name: Victor's Homepage
+  #   slug: homepage_victor
+  # -
+  #   name: Will's Homepage
+  #   slug: homepage_will
 themes:
   -
     name: Cody
@@ -18,7 +21,7 @@ themes:
     name: Victor
     slug: victor
     css_path: http://datlap01.webmdhealth.net/responsive-lab/assets/css/theme/victor/layout.css
-  - 
+  -
     name: Will
     slug: will
     css_path: http://datlap01.webmdhealth.net/responsive-lab/assets/css/theme/will/layout.css
